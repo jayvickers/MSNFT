@@ -5,18 +5,22 @@ import bgimg from '../images/msnftbg2_min.jpg'
 const ComingSoon = () => {
 
     const bgstyle = {
-
         backgroundImage: `url(${bgimg})`,
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat"
+    }
+
+    const underlineStyle = {
+        paddingBottom: "3px",
+        boxShadow: "rgb(241 80 47 / 0%) 0px 10px 0px 0px, rgb(241 80 47) 0px -0.125em inset"
     }
     return (
         <div style={bgstyle} className="coming-soon">
             <div className="coming-soon__text-container">
                 <h1>MeanStreak NFT</h1>
                 <h2>Coming soon 2021</h2>
-                <p>NFT marketplace and art community, featuring New England graffiti legends. Terrance to add some more text here about what the site will be.</p>
-                <p>find us on these social platforms</p>
+                <p>NFT marketplace and art community. Featuring New England graffiti legends, digital commodies backed by real <span style={underlineStyle}>physical items</span>.</p>
+                <p>find us on these social platforms for exclusive community drops. custom 1/1 apparel, live events, music, and more.</p>
             </div>
             <div className="coming-soon__gallery">
                 <div className="gallery__row-container">
