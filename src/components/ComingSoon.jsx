@@ -1,14 +1,14 @@
 import React from 'react';
 import './_coming-soon.less';
-import bgimg from '../images/msnftbg.png'
+import bgimg from '../images/msnftbg2_min.jpg'
 
 const ComingSoon = () => {
 
     const bgstyle = {
 
-        background: `url(${bgimg})`,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "100% 100%"
+        backgroundImage: `url(${bgimg})`,
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat"
     }
     return (
         <div style={bgstyle} className="coming-soon">
