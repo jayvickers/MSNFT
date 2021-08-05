@@ -1,6 +1,7 @@
 import React from 'react';
 import './_coming-soon.less';
-import bgimg from '../images/bg5mono50.jpg'
+import bgimg from '../images/bg5mono50.webp'
+import bgimg2 from '../images/bg5mono50.jpg'
 
 const ComingSoon = () => {
 
@@ -17,14 +18,18 @@ const ComingSoon = () => {
                 opacity: ".85",
                 backgroundColor: "black"
             }} />
-            <img className="bgimg" src={bgimg} />
+
+            <picture>
+                <source srcSet={bgimg} type="image/webp" />
+                <source srcSet={bgimg2} type="image/jpeg" />
+                <img className="bgimg" src={bgimg} alt="background graffiti" />
+            </picture>
             <div className="coming-soon">
                 <div className="coming-soon__text-container">
                     <h1>MeanStreak NFT</h1>
                     <h2>Coming soon 2021</h2>
                     <p>NFT marketplace and art community - Featuring New England graffiti legends</p>
                     <p>Digital commodies backed by real <span style={underlineStyle}>physical items</span>.</p>
-                    {/* <p>Featuring New England graffiti legends. digital commodies backed by real <span style={underlineStyle}>physical items</span>.</p> */}
                     <p>Exclusive community drops, custom 1/1 apparel, live events, music, and more.</p>
                     <div className="social-container" style={{ display: "flex", justifyContent: "center" }}>
                         <span className="social-container__find-us">Find us here<i className="fas fa-arrow-right"></i></span>
