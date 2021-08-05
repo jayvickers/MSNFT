@@ -1,6 +1,6 @@
 import React from 'react';
 import './_coming-soon.less';
-import bgimg from '../images/bg5.jpg'
+import bgimg from '../images/bg5mono50.jpg'
 
 const ComingSoon = () => {
 
