@@ -5,7 +5,6 @@ import bgimgjpg from '../images/bg5mono50.jpg'
 import paintdot from '../images/icons/paintdot.png';
 import logopng from '../images/logos/logocrop.png';
 import logowebp from '../images/logos/logocrop.webp';
-import TwitterLogo from '../images/svgs/twitter.svg';
 
 const ComingSoon = () => {
 
@@ -33,11 +32,11 @@ const ComingSoon = () => {
                 <img className="bgimg" src={bgimgwebp} alt="background graffiti" />
             </picture>
             <div className="coming-soon">
-                {/* <picture>
+                <picture>
                     <source srcSet={logowebp} type="image/webp" />
-                    <source srcSet={logopng} type="image/jpeg" />
-                    <img className="coming-soon__logo" src={logowebp} alt="msnft logo" />
-                </picture> */}
+                    <source srcSet={logopng} type="image/png" />
+                    <img width="130px" height="150px" className="coming-soon__logo" src={logowebp} alt="msnft logo" />
+                </picture>
 
                 <div className="coming-soon__text-container">
                     <h1>MeanStreak NFT</h1>
