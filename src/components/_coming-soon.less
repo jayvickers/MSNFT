@@ -98,6 +98,10 @@
     margin-right: 30%;
     margin-top: 2rem;
 
+    @media only screen and (max-width: 500px) {
+        margin-right: 20%;
+    }
+
     &__icon-container {
         display: grid;
         //grid-template-rows: 1fr 1fr 1fr;
@@ -105,19 +109,34 @@
         grid-row-gap: 1rem;
         // margin: auto;
     
-        i {
-            color: #1DA1F2;
-            font-size: 26px;
-        }
+        // i {
+        //     color: #1DA1F2;
+        //     font-size: 26px;
+        // }
     }
 
     &__find-us {
         margin: auto;
         display: flex;
 
-        i {
-            color: rgb(241 80 47);
-            margin: .05rem 0 0 2rem;
-        }
+        // i {
+        //     color: rgb(241 80 47);
+        //     margin: .05rem 0 0 2rem;
+        // }
+    }
+}
+
+.twitter-svg {
+    width: 55px;
+    display: flex;
+    margin-top: 1rem;
+    fill: #1DA1F2;
+}
+
+.find-us {
+
+    &__arrow {
+        color: rgb(241 80 47);
+        font-size: 18px;
     }
 }
