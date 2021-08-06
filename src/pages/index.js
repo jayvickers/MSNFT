@@ -11,8 +11,6 @@ const IndexPage = () => {
     <meta name="description" content="MeanStreak NFT" />
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Teko:wght@300&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/504a442b12.js" crossOrigin="anonymous"/>
   </Helmet>
