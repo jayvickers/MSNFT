@@ -4,13 +4,14 @@
     display: flex;
     color: white;
     position: relative;
+    flex-direction: column;
 
    &__text-container {
         max-width: 40%;
        // margin: auto .5rem auto auto;
         margin: auto;
         z-index: 2;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 900px) {
             max-width: 90%;
         }
         span,p{ 
@@ -23,32 +24,61 @@
         }
    }
 
-   &__gallery {
-        margin: auto auto auto .5rem;
-        display: flex;
-        position: relative;
+//    &__gallery {
+//         margin: auto auto auto .5rem;
+//         display: flex;
+//         position: relative;
+//    }
+
+   &__logo {
+    width: 200px;
+    height: 220px;
+    margin: 2rem;
+    position: absolute;
+
+    @media only screen and (max-width: 500px) {
+        margin: auto;
+        width: 130px;
+        height: 150px;
+    }
    }
 }
 
-.gallery {
-    &__item {
-        min-width: 200px;
-        min-height: 250px;
-        border: 1px solid gray;  
-        margin-bottom: 1rem;  
+.text-container {
+    &__paint-dot {
+        height: 13px;
+        width: 15px;
+        position: absolute;
+        left: 0;
+        top: 1px;
     }
-    &__row-container{
-        display: flex;
-        flex-direction: column;
 
-        &:first-of-type {
-            margin-right: 1rem;
-            :first-child {
-                margin-top: -3rem;
-              }           
-        }        
+    &__bullet {
+        //display: flex;
+        position: relative;
+        padding-left: 1rem;
     }
 }
+
+// .gallery {
+//     &__item {
+//         min-width: 200px;
+//         min-height: 250px;
+//         border: 1px solid gray;  
+//         margin-bottom: 1rem;  
+//     }
+//     &__row-container{
+//         display: flex;
+//         flex-direction: column;
+
+//         &:first-of-type {
+//             margin-right: 1rem;
+//             :first-child {
+//                 margin-top: -3rem;
+//               }           
+//         }        
+//     }
+// }
 
 .bgimg {
     position: absolute;
@@ -70,11 +100,13 @@
 
     &__icon-container {
         display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
+        //grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-row-gap: 1rem;
-        margin: auto;
+        // margin: auto;
     
         i {
+            color: #1DA1F2;
             font-size: 26px;
         }
     }
