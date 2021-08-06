@@ -33,11 +33,11 @@ const ComingSoon = () => {
                 <img className="bgimg" src={bgimgwebp} alt="background graffiti" />
             </picture>
             <div className="coming-soon">
-                <picture>
+                {/* <picture>
                     <source srcSet={logowebp} type="image/webp" />
                     <source srcSet={logopng} type="image/jpeg" />
                     <img className="coming-soon__logo" src={logowebp} alt="msnft logo" />
-                </picture>
+                </picture> */}
 
                 <div className="coming-soon__text-container">
                     <h1>MeanStreak NFT</h1>

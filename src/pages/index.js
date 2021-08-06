@@ -8,11 +8,11 @@ const IndexPage = () => {
   return (
     <>
     <Helmet title="MeanStreak NFT Marketplace & Community">
-    <meta name="description" content="MeanStreak NFT" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"/>
-  </Helmet>
+      <meta name="description" content="MeanStreak NFT" />
+      <link rel="preconnect" href="https://fonts.googleapis.com"/>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+      <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet"/>
+    </Helmet>
     <main>
      <ComingSoon />
     </main>
