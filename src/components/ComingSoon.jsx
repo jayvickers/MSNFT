@@ -3,8 +3,8 @@ import './_coming-soon.less';
 import bgimgwebp from '../images/bg5mono50.webp'
 import bgimgjpg from '../images/bg5mono50.jpg'
 import paintdot from '../images/icons/paintdot.png';
-import logopng from '../images/logos/logocrop.png';
-import logowebp from '../images/logos/logocrop.webp';
+import logopng from '../images/logos/logocrop_65min.png';
+import logowebp from '../images/logos/logocrop_65min.webp';
 
 const ComingSoon = () => {
 
@@ -34,7 +34,7 @@ const ComingSoon = () => {
             <div className="coming-soon">
                 <picture>
                     <source srcSet={logowebp} type="image/webp" />
-                    <source srcSet={logopng} type="image/png" />
+                    <source srcSet={logopng} type="image/jpeg" />
                     <img width="130px" height="150px" className="coming-soon__logo" src={logowebp} alt="msnft logo" />
                 </picture>
 
