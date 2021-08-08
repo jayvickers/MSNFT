@@ -47,8 +47,8 @@ const ComingSoon = () => {
                     </p>
                     <p className="text-container__bullet">
                         <img className="text-container__paint-dot" alt="paint dot icon" src={paintdot} />
-                        Digital commodies backed by real
-                        <span style={underlineStyle}>physical items</span>.
+                        Digital commodities backed by real
+                        <span style={underlineStyle}>physical assets</span>.
                     </p>
                     <p className="text-container__bullet">
                         <img className="text-container__paint-dot" alt="paint dot icon" src={paintdot} />
